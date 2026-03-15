@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(19, 19, 19);
+}
+#produto {
+    display: flex;
+    margin: auto;
+    margin-top: -700px;
+    border: 5px rgb(170, 170, 170) solid;
+    border-radius: 25px;
+    z-index: 1;
+    
+}
+
+
+.T1 {
+    color: white;
+    z-index: 2;
+    margin-top: -200px;
+    margin-left: 120px;
+    
+}   
+
+.T2 {
+    color: white;
+    z-index: 2;
+    float: right;
+    margin-right: 250px;
+    margin-top: -45px;
+
+}
+.T3 {
+    color: white;
+    z-index: 2;
+    float: right;
+    margin-right: -185px;
+    margin-top: 10px;
+}
+.T4 {
+    color: green;
+    z-index: 2;
+    float: right;
+    margin-right: -300px;
+    margin-top: 10px;
+}
+.T5 {
+    color: black;
+    z-index: 2;
+    float: right;
+    margin-right: -250px;
+    margin-top: 70px;
+    background-color: red;
+    border: 15px red solid;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.T5:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 4px rgb(138, 19, 19);
+}
+
+.margem {
+    display: flex;
+    border: 1px solid black;
+    padding: 40px 10px 700px 10px;
+    background-color: black;
+    margin: auto;
+    width: 90%;
+    margin-top: 5px;
+    z-index: -1;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(7, 7, 7);
+}
+
+.margem, .TXT {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}

@@ -6,11 +6,14 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  height: 100%;
+  position: fixed;
   background-color: #000;
   font-family: sans-serif;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 #intro-layer {
+  touch-action: none;
   position: fixed;
   top: 0;
   left: 0;
